@@ -7739,101 +7739,126 @@ button.close {
   }
 }
 
-body {
+@font-face {
+  font-family: pier-bold;
+  src: url("../fonts/PierSans/pier-bold.otf");
+}
+
+@font-face {
+  font-family: stiff-staff;
+  src: url("../fonts/stiff_staff/Stiff_Staff.otf");
+}
+
+@font-face {
+  font-family: pier-regular;
+  src: url("../fonts/PierSans/pier-regular.otf");
+}
+
+@font-face {
+  font-family: aileron-bold;
+  src: url("../fonts/aileron/Aileron-bold.otf");
+}
+
+html body {
   font-family: 'Lato', sans-serif;
-  background-color: #475B63;
+  background-color: #ABB7B7;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-body .transparent-overlay-container {
-  background-color: #34495e;
-  z-index: 1000;
+html body .landing-page-wrapper {
+  background-color: #ABB7B7;
+  height: 100vh;
 }
 
-body .transparent-overlay-container .blockbuster-container {
-  background-color: #ecf0f1;
-  background: url("../img/background-hero.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  z-index: 0;
+html body .landing-page-wrapper .header-and-main-nav {
+  padding-top: 36px;
 }
 
-body .transparent-overlay-container .blockbuster-container .main-navigation {
-  padding-top: 25px;
-  padding-bottom: 25px;
+html body .landing-page-wrapper .header-and-main-nav .company-name {
+  color: #374A67;
+  font-size: 18px;
+  font-family: pier-regular;
 }
 
-body .transparent-overlay-container .blockbuster-container .main-navigation .main-nav-header {
-  font-size: 36px;
-  float: left;
-  color: #E77245;
+html body .landing-page-wrapper .header-and-main-nav .logo-container {
+  height: 200px;
+  background-color: #374a67;
+  text-align: center;
 }
 
-body .transparent-overlay-container .blockbuster-container .main-navigation .main-nav-ul {
+html body .landing-page-wrapper .header-and-main-nav .logo-container .company-logo {
+  color: #ECF0F1;
+  font-size: 72px;
+  font-family: pier-bold;
+  text-transform: uppercase;
+  padding-top: 45px;
+}
+
+html body .landing-page-wrapper .header-and-main-nav .nav-ul {
   list-style: none;
   text-align: right;
-  padding: 0;
-  margin: 0 10px;
 }
 
-body .transparent-overlay-container .blockbuster-container .main-navigation .main-nav-li {
-  display: inline-block;
-}
-
-body .transparent-overlay-container .blockbuster-container .main-navigation a {
-  padding: 15px 15px;
-  font-size: 18px;
+html body .landing-page-wrapper .header-and-main-nav .nav-ul .nav-a {
   text-decoration: none;
-  color: #0E1116;
+  color: #374A67;
+  font-size: 16px;
+  font-family: pier-regular;
 }
 
-body .transparent-overlay-container .blockbuster-container .block-quote-container {
-  padding-top: 60px;
+html body .quote-board .quote-first-half {
+  font-family: pier-regular;
+  font-size: 56px;
+  color: #ECF0F1;
+  padding-top: 75px;
 }
 
-body .transparent-overlay-container .blockbuster-container .block-quote-container .hero-quote-first-half {
-  font-size: 64px;
-  font-weight: 300;
-  text-transform: uppercase;
-  text-align: center;
-  color: #0E1116;
-  padding-bottom: 20px;
+html body .quote-board .quote-second-half {
+  font-family: pier-bold;
+  font-size: 48px;
+  color: #ECF0F1;
 }
 
-body .transparent-overlay-container .blockbuster-container .block-quote-container .hero-quote-second-half {
-  font-size: 45px;
-  font-weight: 600;
-  text-transform: uppercase;
-  text-align: center;
-  color: #0E1116;
-  padding-bottom: 72px;
+html body .test {
+  background-color: rgba(252, 252, 98, 0.8);
+  height: 299px;
+  width: 800px;
+  padding-right: 10px;
+  position: absolute;
+  top: 63%;
+  left: 46%;
 }
 
-body .horizontal-bar {
-  background-color: #1C1F33;
-  height: 1px;
-}
-
-body .solutions-container .solutions-copy-container {
-  float: none;
-  margin: 0 auto;
-  color: #779CAB;
-}
-
-body .solutions-container .solutions-teaser-copy {
-  font-size: 18px;
-  text-align: center;
-  padding-bottom: 100px;
-}
-
-body .solutions-container .s-container {
-  margin: 10px 0px;
-}
-
-body .solutions-container .solution-box {
-  height: 225px;
-  background: #475B63;
-}
-
-body .bottom-solutions-contaier {
+html body .test .intro-copy-one {
+  font-family: pier-regular;
+  color: #374A67;
+  text-align: right;
+  font-size: 24px;
+  line-height: 48px;
   padding-top: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+html body .test .intro-copy-two {
+  font-family: pier-regular;
+  color: #374A67;
+  text-align: right;
+  font-size: 24px;
+  line-height: 48px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+html body .test .intro-copy-three {
+  font-family: pier-regular;
+  color: #374A67;
+  text-align: right;
+  font-size: 24px;
+  line-height: 48px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
