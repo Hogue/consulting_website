@@ -100,19 +100,17 @@ html body {
     }
 
     .test {
-            background-color: rgba(252, 252, 98, 0.8);
+            background-color: rgba(252, 252, 98, 0.75);
             height: 299px;
-            width: 800px;
-            padding-right: 10px;
-            position: absolute;
-            top: 63%;
-            left: 46%;
+            margin-top: 55px;
+
+
 
             .intro-copy-one {
                 font-family: pier-regular;
                 color: #374A67;
                 text-align: right;
-                font-size: 24px;
+                font-size: 28px;
                 line-height: 48px;
                 padding-top: 50px;
                 padding-right: 20px;
