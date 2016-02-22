@@ -24,16 +24,20 @@ html body {
   //  background-size: 100% 100%;
   //  background-repeat: no-repeat;
       background-color: #ABB7B7;
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      padding: 0;
+
+
 
 
     .landing-page-wrapper {
 
         background-color: #ABB7B7;
-        height: 100vh;
+    //    height: 100vh;
+    //    width: 100vw;
+    //    position: relative;
+    //    margin: 0;
+    //    overflow: hidden;
+
+
 
         .header-and-main-nav {
             padding-top: 36px;
@@ -78,67 +82,110 @@ html body {
 
         }
 
-    }
-
-    .quote-board {
 
 
+        .quote-board {
 
-        .quote-first-half {
-            font-family: pier-regular;
-            font-size: 56px;
-            color: #ECF0F1;
-            padding-top: 75px;
+
+
+            .quote-first-half {
+                font-family: pier-regular;
+                font-size: 56px;
+                color: #ECF0F1;
+                padding-top: 75px;
+            }
+
+            .quote-second-half {
+                font-family: pier-bold;
+                font-size: 48px;
+                color: #ECF0F1;
+            }
+
         }
 
-        .quote-second-half {
-            font-family: pier-bold;
-            font-size: 48px;
-            color: #ECF0F1;
+        .test {
+                background-color: rgba(252, 252, 98, 0.75);
+                height: 250px;
+                width: auto;
+                margin-top: 55px;
+
+
+
+                .intro-copy-one {
+                    font-family: pier-regular;
+                    color: #374A67;
+                    text-align: right;
+                    font-size: 28px;
+                    line-height: 48px;
+                    padding-top: 50px;
+                    padding-right: 20px;
+                    padding-left: 20px;
+
+                }
+                .intro-copy-two {
+                    font-family: pier-regular;
+                    color: #374A67;
+                    text-align: right;
+                    font-size: 24px;
+                    line-height: 48px;
+                    padding-right: 20px;
+                    padding-left: 20px;
+                }
+                 .intro-copy-three {
+                    font-family: pier-regular;
+                    color: #374A67;
+                    text-align: right;
+                    font-size: 24px;
+                    line-height: 48px;
+                    padding-right: 20px;
+                    padding-left: 20px;
+                }
+
         }
 
     }
 
-    .test {
-            background-color: rgba(252, 252, 98, 0.75);
-            height: 299px;
-            margin-top: 55px;
-
-
-
-            .intro-copy-one {
-                font-family: pier-regular;
-                color: #374A67;
-                text-align: right;
-                font-size: 28px;
-                line-height: 48px;
-                padding-top: 50px;
-                padding-right: 20px;
-                padding-left: 20px;
-
+    .solutions-container {
+        .first-block {
+            height: 300px;
+            background-color: rgba(55, 74, 103, 0.5);
+            &:hover {
+                background-color: rgba(55, 74, 103, 1);
             }
-            .intro-copy-two {
-                font-family: pier-regular;
-                color: #374A67;
-                text-align: right;
-                font-size: 24px;
-                line-height: 48px;
-                padding-right: 20px;
-                padding-left: 20px;
-            }
-             .intro-copy-three {
-                font-family: pier-regular;
-                color: #374A67;
-                text-align: right;
-                font-size: 24px;
-                line-height: 48px;
-                padding-right: 20px;
-                padding-left: 20px;
-            }
+        }
 
+        .second-block {
+            height: 300px;
+            background-color: rgba(252, 252, 98, 0.5);
+            &:hover {
+                background-color: rgba(252, 252, 98, 0.75);
+            }
+        }
+
+        .solution-header {
+            font-size: 42px;
+            text-transform: uppercase;
+            letter-spacing: 0.85px;
+        }
+
+        .solution-copy {
+            font-size: 18px;
+            line-height: 24px;
+
+
+        }
+
+        .white-copy {
+            color: #ECF0F1;
+        }
+
+        .blue-copy {
+            color: #374A67;
+        }
+
+        .more-link {
+
+        }
     }
-
-
-
 
 }

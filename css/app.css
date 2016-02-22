@@ -7762,15 +7762,10 @@ button.close {
 html body {
   font-family: 'Lato', sans-serif;
   background-color: #ABB7B7;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 html body .landing-page-wrapper {
   background-color: #ABB7B7;
-  height: 100vh;
 }
 
 html body .landing-page-wrapper .header-and-main-nav {
@@ -7809,26 +7804,27 @@ html body .landing-page-wrapper .header-and-main-nav .nav-ul .nav-a {
   font-family: pier-regular;
 }
 
-html body .quote-board .quote-first-half {
+html body .landing-page-wrapper .quote-board .quote-first-half {
   font-family: pier-regular;
   font-size: 56px;
   color: #ECF0F1;
   padding-top: 75px;
 }
 
-html body .quote-board .quote-second-half {
+html body .landing-page-wrapper .quote-board .quote-second-half {
   font-family: pier-bold;
   font-size: 48px;
   color: #ECF0F1;
 }
 
-html body .test {
+html body .landing-page-wrapper .test {
   background-color: rgba(252, 252, 98, 0.75);
-  height: 299px;
+  height: 250px;
+  width: auto;
   margin-top: 55px;
 }
 
-html body .test .intro-copy-one {
+html body .landing-page-wrapper .test .intro-copy-one {
   font-family: pier-regular;
   color: #374A67;
   text-align: right;
@@ -7839,7 +7835,7 @@ html body .test .intro-copy-one {
   padding-left: 20px;
 }
 
-html body .test .intro-copy-two {
+html body .landing-page-wrapper .test .intro-copy-two {
   font-family: pier-regular;
   color: #374A67;
   text-align: right;
@@ -7849,7 +7845,7 @@ html body .test .intro-copy-two {
   padding-left: 20px;
 }
 
-html body .test .intro-copy-three {
+html body .landing-page-wrapper .test .intro-copy-three {
   font-family: pier-regular;
   color: #374A67;
   text-align: right;
@@ -7857,4 +7853,41 @@ html body .test .intro-copy-three {
   line-height: 48px;
   padding-right: 20px;
   padding-left: 20px;
+}
+
+html body .solutions-container .first-block {
+  height: 300px;
+  background-color: rgba(55, 74, 103, 0.5);
+}
+
+html body .solutions-container .first-block:hover {
+  background-color: #374a67;
+}
+
+html body .solutions-container .second-block {
+  height: 300px;
+  background-color: rgba(252, 252, 98, 0.5);
+}
+
+html body .solutions-container .second-block:hover {
+  background-color: rgba(252, 252, 98, 0.75);
+}
+
+html body .solutions-container .solution-header {
+  font-size: 42px;
+  text-transform: uppercase;
+  letter-spacing: 0.85px;
+}
+
+html body .solutions-container .solution-copy {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+html body .solutions-container .white-copy {
+  color: #ECF0F1;
+}
+
+html body .solutions-container .blue-copy {
+  color: #374A67;
 }
