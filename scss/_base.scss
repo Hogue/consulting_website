@@ -1,0 +1,115 @@
+body {
+  font-family: 'Lato', sans-serif;
+  // background: url("../img/background-fractal.jpg");
+  //  background-size: 100% 100%;
+  //  background-repeat: no-repeat;
+    background-color: #475B63;
+
+    .transparent-overlay-container {
+        background-color: rgba(52, 73, 94, 1.0);
+        z-index: 1000;
+
+        .blockbuster-container {
+            background-color: #ecf0f1;
+            background: url("../img/background-hero.jpg");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            z-index: 0;
+
+            .main-navigation {
+
+                padding-top: 25px;
+                padding-bottom: 25px;
+
+
+                .main-nav-header {
+                    font-size: 36px;
+                    float: left;
+                    color: #E77245;
+
+
+
+                }
+
+                .main-nav-ul {
+                    list-style: none;
+                    text-align: right;
+                    padding: 0;
+                    margin: 0 10px;
+                }
+
+                .main-nav-li {
+                    display: inline-block;
+                }
+
+                a {
+                    padding: 15px 15px;
+                    font-size: 18px;
+                    text-decoration: none;
+                    color: #0E1116;
+                }
+            }
+
+            .block-quote-container {
+
+                padding-top: 60px;
+
+                .hero-quote-first-half {
+                    font-size: 64px;
+                    font-weight: 300;
+                    text-transform: uppercase;
+                    text-align: center;
+                    color: #0E1116;
+                    padding-bottom: 20px;
+                }
+
+                .hero-quote-second-half {
+                    font-size: 45px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    text-align: center;
+                    color: #0E1116;
+                    padding-bottom: 72px;
+
+
+                }
+
+            }
+
+        }
+    }
+
+    .horizontal-bar {
+        background-color: #1C1F33;
+        height: 1px;
+    }
+
+
+    .solutions-container {
+
+        .solutions-copy-container {
+            float: none;
+            margin: 0 auto;
+            color: #779CAB;
+        }
+        .solutions-teaser-copy {
+            font-size: 18px;
+            text-align: center;
+            padding-bottom: 100px;
+        }
+        .s-container {
+            margin: 10px 0px;
+        }
+        .solution-box {
+            height: 225px;
+            background: #475B63;
+
+        }
+    }
+
+    .bottom-solutions-contaier {
+        padding-top: 50px;
+    }
+
+
+}

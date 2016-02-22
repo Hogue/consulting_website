@@ -1,0 +1,22 @@
+{
+  "name": "hogue_valuations_website",
+  "authors": [
+    "Hogue <ajhogue6@gmail.com>"
+  ],
+  "description": "hogue business valuations website",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.6"
+  }
+}
